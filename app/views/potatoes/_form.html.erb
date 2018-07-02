@@ -1,0 +1,7 @@
+<%= form_with model: @potato do |form| %>
+  <label>Name: </label>
+  <%= form.text_field :name %><br>
+  <label>Eyes: </label>
+  <%= form.text_field :eyes %><br>
+  <%= form.submit %>
+<% end %>
